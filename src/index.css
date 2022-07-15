@@ -1,13 +1,236 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+  overflow: visible;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+header p {
+  color: #fff567;
+  font-size: 40px;
+  font-family: Arial Black, Helvetica, sans-serif;
+  text-shadow: 0 1px 2px black;
+}
+
+.header-image {
+  background-image: url("./img/william-william-NndKt2kF1L4-unsplash.jpg");
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.telephone img,
+.mail img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+  -ms-flex-pack: baseline;
+  justify-content: center;
+  position: fixed;
+  top: 15%;
+  left: 20%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 150px;
+  z-index: 1000;
+  width: 60%;
+  height: auto;
+  padding: 25px;
+  border: 4px solid yellowgreen;
+  background-color: white;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  text-align: left;
+}
+
+@media only screen and (min-width: 900px) {
+  .description {
+    padding-right: 25%;
+    background-image: url("./img/a5e6e358148927.59f10d5c482dd.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+}
+
+div .auto {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  background-image: url("./img/delivery-truck.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div .auto:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+div .plane {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  background-image: url("./img/airplane.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div .plane:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+div .sea {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  background-image: url("./img/ship.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div .sea:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+div .railroad {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  background-image: url("./img/cargo-train.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div .railroad:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+div .small-cargo {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  background-image: url("./img/boxes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div .small-cargo:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+div .documents {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  background-image: url("./img/stock.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div .documents:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+div .export {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  background-image: url("./img/export.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div .export:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+div .dangerous {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  background-image: url("./img/hazardous-substance.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+div .dangerous:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+h5 {
+  border: 2px solid yellowgreen;
+}
+
+.contacts {
+  border: 2px solid #cee2a6;
+  background-color: white;
+}
+
+.hidden {
+  display: none;
 }
